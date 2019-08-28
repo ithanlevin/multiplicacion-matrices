@@ -1,0 +1,8 @@
+gcc hdispersa.c -o hdispersa
+./hdispersa M N file_name N P -pthread -lm
+
+M = number of rows
+N = number of columns
+file_name = name of the file where the information is stored
+N = number of threads
+P = minimum percentage to be a dispersed matrix

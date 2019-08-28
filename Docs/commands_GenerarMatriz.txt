@@ -1,0 +1,4 @@
+gcc GenerarMatriz.c -o Matrix
+./Matrix file_name
+
+fileName = name of the file where the information will be stored
